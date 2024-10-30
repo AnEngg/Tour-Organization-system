@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:id="@+id/lv_cv_categorywise_historical_places">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/lv_img_category_image"
+            android:src="@drawable/image_not_load"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_tv_category_name"
+            android:text="Taj Mahal"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bungee"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

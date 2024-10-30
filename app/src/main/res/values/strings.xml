@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tourist Guidance User App</string>
+    <string name="google_maps_key">AIzaSyDXKrtmMVOvzYhO9YDMYIdILpIThd8WW3w</string>
+
+    <string-array name="select_city">
+        <item>Select Your City</item>
+    </string-array>
+</resources>

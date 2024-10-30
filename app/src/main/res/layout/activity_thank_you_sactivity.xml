@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategorywiseHistoricalPlaces.Thank_YouSActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/img_order_place"
+        android:src="@drawable/donate_logo"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_view_order_image"
+        android:visibility="visible"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_donation_done_successfully"
+        android:text="Yay! Payment Done Successfully"
+        android:textColor="@color/purple_700"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_delivered_shortly"
+        android:text="Your Payment will be delivered shortly. Keep Booking"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:textSize="14dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</LinearLayout>
